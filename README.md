@@ -26,6 +26,11 @@
   <a href="https://insiders.vscode.dev/redirect/mcp/install?name=leadreef&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fapi.leadreef.ai%2Fmcp%22%7D"><img src="https://img.shields.io/badge/VS_Code-Install_LeadReef-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white" alt="Install in VS Code" height="32"></a>
 </p>
 
+<p align="center">
+  <a href="https://glama.ai/mcp/connectors/ai.leadreef/leadreef"><img src="https://glama.ai/mcp/connectors/ai.leadreef/leadreef/badges/score.svg" alt="LeadReef MCP connector on Glama"></a>
+  <a href="https://registry.modelcontextprotocol.io/v0/servers?search=ai.leadreef"><img src="https://img.shields.io/badge/MCP_Registry-ai.leadreef%2Fleadreef-14201B?style=flat-square" alt="Official MCP Registry: ai.leadreef/leadreef"></a>
+</p>
+
 ---
 
 **LeadReef MCP** is the official remote [Model Context Protocol](https://modelcontextprotocol.io) server for [LeadReef](https://leadreef.ai), a lead finder for web designers and agencies. Connect it once, and your AI app can scan a city for local businesses that have no website or a weak one, rank them by how much they need a new site, and pull the phone, email and address so the AI can write the pitch.
