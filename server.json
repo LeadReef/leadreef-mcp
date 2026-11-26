@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.leadreef/leadreef",
+  "title": "LeadReef",
+  "description": "Find local businesses with no website or a weak one, plus their contacts, for web designers.",
+  "version": "1.0.0",
+  "websiteUrl": "https://leadreef.ai/mcp",
+  "repository": {
+    "url": "https://github.com/LeadReef/leadreef-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://leadreef.ai/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.leadreef.ai/mcp"
+    }
+  ]
+}

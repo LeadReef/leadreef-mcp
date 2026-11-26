@@ -1,0 +1,14 @@
+{
+  "name": "leadreef",
+  "version": "1.0.0",
+  "description": "Find local businesses with no website or a weak one, read their contacts and write the pitch, from Claude Code.",
+  "author": {
+    "name": "LeadReef",
+    "email": "support@leadreef.ai",
+    "url": "https://leadreef.ai"
+  },
+  "homepage": "https://leadreef.ai/mcp",
+  "repository": "https://github.com/LeadReef/leadreef-mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "lead-generation", "local-business", "web-design", "leads", "prospecting"]
+}

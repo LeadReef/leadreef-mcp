@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "leadreef": {
+      "url": "https://api.leadreef.ai/mcp"
+    }
+  }
+}

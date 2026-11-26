@@ -1,0 +1,19 @@
+{
+  "name": "leadreef",
+  "owner": {
+    "name": "LeadReef",
+    "email": "support@leadreef.ai"
+  },
+  "metadata": {
+    "description": "Official LeadReef plugins for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "leadreef",
+      "source": "./",
+      "description": "LeadReef MCP server plus a workflow skill: find local businesses with no website or a weak one, read their contacts and write the pitch.",
+      "category": "productivity",
+      "homepage": "https://leadreef.ai/mcp"
+    }
+  ]
+}

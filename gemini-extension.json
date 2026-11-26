@@ -1,0 +1,11 @@
+{
+  "name": "leadreef",
+  "version": "1.0.0",
+  "description": "Find local businesses with no website or a weak one, read their contacts and write the pitch.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "leadreef": {
+      "httpUrl": "https://api.leadreef.ai/mcp"
+    }
+  }
+}
