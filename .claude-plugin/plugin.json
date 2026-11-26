@@ -1,6 +1,6 @@
 {
   "name": "leadreef",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Find local businesses with no website or a weak one, read their contacts and write the pitch, from Claude Code.",
   "author": {
     "name": "LeadReef",

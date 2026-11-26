@@ -20,7 +20,7 @@ Check saved leads first: if the user may already have a search for that city, ca
 
 ## Running the search
 
-1. Call `start_search` with `business_type`, `country` and `location`. Use `website_status` to match the request: `no_website`, `weak_website` or `both`. Pass an `idempotency_key` so a retry does not start a second search.
+1. Call `start_search` with `business_type`, `country` and `location`. Use `website_status` to match the request: `no_website`, `weak_website` or `both`. `sources` picks where to look (`maps`, `recent_ads`, `open_web`); Recent Ads and Open Web need Pro or Scale and cost more, so mention it in the estimate. Pass an `idempotency_key` so a retry does not start a second search.
 2. Call `get_search` with the returned `search_id` and `wait_seconds: 25`. Repeat until `status` is `done` or `done_empty`, waiting `poll_again_after_seconds` between calls. Tell the user it is running; do not start another search meanwhile.
 3. If it ends `done_empty`, say so and suggest a nearby city, a related business type or `website_status: both`.
 
@@ -28,6 +28,7 @@ Check saved leads first: if the user may already have a search for that city, ca
 
 - Show a short table: business, city, website or "no website", the main problem, rating. Keep the order LeadReef returns; it puts the best opportunities first.
 - Offer the next page instead of dumping every lead.
+- To narrow a long list, pass filters to `get_search` or `list_leads`: `has_email`, `has_phone`, `problem`, `min_score`, `query`.
 - Call `get_lead` only for the leads the user picks, and `get_lead_contacts` only when they want to reach out.
 
 ## Writing the pitch

@@ -87,7 +87,7 @@ Nine tools. Only `start_search` spends anything; every other tool is free.
 | `start_search` | Starts a search for businesses with no website or a weak one | Credits, or the daily free search |
 | `get_search` | Status of a search and its leads, best opportunities first | Free |
 | `list_searches` | Your past searches, newest first | Free |
-| `list_leads` | Saved leads across searches, with filters | Free |
+| `list_leads` | Saved leads across searches, filtered by problem, email, phone or score | Free |
 | `get_lead` | One lead's card: what is wrong with its site and what to pitch | Free |
 | `get_lead_contacts` | One lead's phone, email, address and social profiles | Free |
 
@@ -101,7 +101,7 @@ The MCP server is included in every LeadReef plan. A search costs the same credi
 | --- | --- | --- |
 | Free | $0 | 1 search a day, up to 10 leads, 10 business types × 10 cities |
 | Starter | $14/month | 60 credits |
-| Pro | $49/month | 250 credits, Recent Ads and Open Web lead sources, extended searches |
+| Pro | $49/month | 250 credits, adds the Recent Ads and Open Web lead sources |
 | Scale | $99/month | 600 credits |
 
 A standard search costs from 2 credits. Current prices: [leadreef.ai/pricing](https://leadreef.ai/pricing).
@@ -133,7 +133,7 @@ No. A connected app can read your searches, leads, contacts, plan and balance, a
 Claude, ChatGPT, Claude Code, Cursor, VS Code with Copilot, Gemini CLI, Codex, Devin Desktop, Mistral Vibe, and any other client that supports remote MCP servers with OAuth sign-in.
 
 **Which countries and business types can I search?**
-Paid plans search any business type in any city. The Free plan searches a fixed list of pairs; ask the AI to run `list_supported_free_searches` to see them.
+Paid plans search any business type in any city across 54 countries, including the US, Canada, the UK, most of Europe, Australia and India. The Free plan searches a fixed list of 10 business types × 10 cities; ask the AI to run `list_supported_free_searches` to see them.
 
 **Is this repository the server source code?**
 No. The server is hosted by LeadReef. This repository holds the public documentation, client configs, a Claude Code plugin, a Gemini CLI extension and registry metadata.

@@ -13,10 +13,13 @@ Same flow with `website_status: weak_website`. Costs 1 search.
 **"I'm on the free plan. What can I search today?"**
 `get_account` → `list_supported_free_searches`. Free.
 
-**"How much would an extended search for roofers in Phoenix cost?"**
-`estimate_search` with `depth: extended`. Free; nothing is started.
+**"How much would a search for roofers in Phoenix cost with Maps, Recent Ads and Open Web?"**
+`estimate_search` with `sources: ["maps", "recent_ads", "open_web"]`. Free; nothing is started.
 
 ## Work your saved leads
+
+**"From my Austin search, show leads with an email and a score above 70."**
+`list_leads` with `has_email` and `min_score`. Free.
 
 **"Show my leads from the Lisbon search that have a phone number."**
 `list_searches` → `list_leads`. Free.

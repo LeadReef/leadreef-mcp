@@ -3,7 +3,7 @@
   "name": "ai.leadreef/leadreef",
   "title": "LeadReef",
   "description": "Find local businesses with no website or a weak one, plus their contacts, for web designers.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "websiteUrl": "https://leadreef.ai/mcp",
   "repository": {
     "url": "https://github.com/LeadReef/leadreef-mcp",

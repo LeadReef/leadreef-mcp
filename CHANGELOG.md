@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.0 — 2026-11-20
+
+- `start_search` and `estimate_search` take `sources`: Maps, Recent Ads and Open Web, in any combination.
+- `get_search` and `list_leads` filter leads by text, problem, email, phone and minimum score. `list_searches` filters by status, text and free or paid.
+- `start_search` is marked destructive because it spends credits, so clients ask before each paid search.
+- Refresh tokens are advertised through `offline_access`.
+- Breaking: unknown arguments are rejected; plan errors return `plans_url`; `list_leads` drops the `status` filter; `get_lead` returns each pitchable issue as `{ issue, pitch }`.
+
 ## 1.0.0 — 2026-11-06
 
 First public release of the LeadReef MCP server.
